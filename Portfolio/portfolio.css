@@ -1,0 +1,73 @@
+body{
+	margin:20px;
+}
+
+section{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+header{
+	text-align: center;
+	font-family: helvetica;
+	font-weight: 20px;
+}
+header ul li{
+	display: inline-block;
+	font-weight: 10px;
+}
+
+header ul li.underline{
+	text-decoration: underline;
+	border-right: solid;
+	border-right-width: 2px;
+	padding: 10px;
+
+}
+header ul li.italic{
+	font-style: italic;
+}
+
+
+body hr{
+	height: 5px;
+	background-color: pink;
+}
+
+section hr{
+	height: 1px;
+	color: green;
+}
+
+section ul li span.title{
+	font-weight: bold;
+	font-style: italic;
+	font-family: helvetica;
+}
+
+section ul li span.campany{
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+img{
+	float: center;
+	height: 300px;
+	width: 500px;
+	border: solid;
+	border-width: 1px;
+	padding: 5px;
+
+}
+
+
+
+section h2{
+	font-family:helvetica;
+
+}
+
+h3{
+	font-family: calibri;
+	color: grey;
+}
